@@ -6,7 +6,8 @@ ewndata$yearMonth15 <- as.Date(ewndata$yearMonth15)
 ewndata$station_id <- as.character(ewndata$station_id)
 
 shinyServer(
-        function(input, output) { 
+        function(input, output) {
+                # add comments
                 numberStations <- reactive({
                         if (input$station_id == "all") {
                                 numberStations <- 4
