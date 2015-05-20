@@ -1,3 +1,4 @@
+# list of variables and their descriptions with units
 listVar <- list("Total Alkalinity (uEquiv/l)" = "A.TOT", 
                 "BOD5" = "BOD5", 
                 "Chlorophyll a (ug/l)" = "Chl.a", 
@@ -21,12 +22,14 @@ listVar <- list("Total Alkalinity (uEquiv/l)" = "A.TOT",
                 "Total Nitrogen to Total Phosphorus ratio" = "TOT.N.TOT.P", 
                 "Total Phosphorus (umol/l)" = "TOT.P") 
 
+# list of stations
 listStation <- list("000F" = "000F", 
                     "000K" = "000K", 
                     "00CZ" = "00CZ",
                     "00MA" = "00MA",
                     "all" = "all")
 
+# list of depths
 listDepth <- list("0" = "0", 
                   "5" = "5", 
                   "10" = "10",
